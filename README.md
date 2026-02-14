@@ -137,6 +137,8 @@
 
 ```
 15+ monitored nodes • Sub-second metrics • Automated alerting
+
+<img src="assets/screenshot-dashboard.png" alt="Dashboard" width="600" />
 PostgreSQL + WebSocket • Custom dashboards • 99.97% uptime
 ```
 
