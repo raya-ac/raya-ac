@@ -57,11 +57,11 @@ Real-time public transport tracking for Adelaide, Australia with live GPS positi
 ## 📝 Latest from the Blog
 
 <!-- BLOG-POST-LIST:START -->
-- [Blue-Green Deployments: Zero-Downtime Strategy](https://raya.li/blog/posts/blue-green-deployments.html)
-- [Loki Log Aggregation: Centralized Logging](https://raya.li/blog/posts/loki-logging.html)
-- [Rate Limiting: Token Bucket Implementation](https://raya.li/blog/posts/rate-limiting.html)
-- [Automated Backups: 3-2-1-1-0 Strategy](https://raya.li/blog/posts/automated-backups.html)
-- [PostgreSQL Read Replicas: A Practical Guide](https://raya.li/blog/posts/postgres-replicas.html)
+- [Blue-Green Deployments: Zero-Downtime Strategy](https://blog.raya.li/posts/blue-green-deployments.html)
+- [Loki Log Aggregation: Centralized Logging](https://blog.raya.li/posts/loki-logging.html)
+- [Rate Limiting: Token Bucket Implementation](https://blog.raya.li/posts/rate-limiting.html)
+- [Automated Backups: 3-2-1-1-0 Strategy](https://blog.raya.li/posts/automated-backups.html)
+- [PostgreSQL Read Replicas: A Practical Guide](https://blog.raya.li/posts/postgres-replicas.html)
 <!-- BLOG-POST-LIST:END -->
 
 [>> Read all posts](https://blog.raya.li)
@@ -112,5 +112,6 @@ Real-time public transport tracking for Adelaide, Australia with live GPS positi
 *Building infrastructure that just works.*
 
 </div>
+
 
 
