@@ -23,6 +23,7 @@ I design, build, and operate distributed systems. Currently running **15 nodes a
 - **Databases** — PostgreSQL, Redis, Elasticsearch at scale
 - **Networking** — Cloudflare, Tailscale, custom firewall rules
 - **Security** — SSL automation, intrusion detection, security hardening
+- **Backend Development** — Python, Go, Java, Spring Boot, Flask
 
 ---
 
@@ -33,7 +34,7 @@ I design, build, and operate distributed systems. Currently running **15 nodes a
 | [**raya-monitor**](https://github.com/raya-ac/raya-monitor) | Distributed monitoring system handling 2.4M requests/day | Python, PostgreSQL, Redis, Nomad |
 | [**adelaide-metro-tracking**](https://github.com/raya-ac/adelaide-metro-tracking) | Real-time public transport tracker for Adelaide 🚌 | Python, Flask, GTFS-realtime, WebSocket |
 | [**epstein-archive**](https://github.com/raya-ac/epstein-archive) | Document archive with full-text search & timeline visualization | Python, Elasticsearch, PostgreSQL |
-| [**hytale-webadmin**](https://github.com/raya-hytale/webadmin) | Web-based admin panel for Hytale servers | Python, Flask, WebSocket |
+| [**hytale-webadmin**](https://github.com/raya-hytale/webadmin) | Web-based admin panel for Hytale servers | Java, Spring Boot, WebSocket, React |
 | [**raya-tools**](https://raya.li) | Collection of 100+ network & developer utilities | Python, Go, Redis, Cloudflare Workers |
 | [**raya-infrastructure**](https://github.com/raya-ac/raya-infrastructure) | Infrastructure blog and documentation | Markdown, Hugo |
 
@@ -73,7 +74,7 @@ Real-time public transport tracking for Adelaide, Australia with live GPS positi
 
 ## 🛠️ Tech Stack
 
-**Languages:** Python, Go, Bash, SQL, JavaScript
+**Languages:** Python, Go, Java, Bash, SQL, JavaScript
 
 **Infrastructure:** Nomad, Consul, Vault, Docker, Terraform
 
@@ -161,6 +162,7 @@ Real-time public transport tracking for Adelaide, Australia with live GPS positi
 *Building infrastructure that just works.*
 
 </div>
+
 
 
 
