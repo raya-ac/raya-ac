@@ -35,7 +35,7 @@ I design, build, and operate distributed systems. Currently running **15 nodes a
 | [**adelaide-metro-tracking**](https://github.com/raya-ac/adelaide-metro-tracking) | Real-time public transport tracker for Adelaide 🚌 | Python, Flask, GTFS-realtime, WebSocket |
 | [**epstein-archive**](https://github.com/raya-ac/epstein-archive) | Document archive with full-text search & timeline visualization | Python, Elasticsearch, PostgreSQL |
 | [**hytale-webadmin**](https://github.com/raya-hytale/webadmin) | Web-based admin panel for Hytale servers | Java, Spring Boot, WebSocket, React |
-| [**auth-bypass**](https://github.com/raya-ac/auth-bypass) | Authentication bypass testing toolkit | Go, Security Research |
+| [**auth-bypass**](https://github.com/raya-ac/auth-bypass) | osu! authentication bypass using DLL injection | C++, C, Windows API |
 | [**raya-tools**](https://raya.li) | Collection of 100+ network & developer utilities | Python, Go, Redis, Cloudflare Workers |
 | [**raya-infrastructure**](https://github.com/raya-ac/raya-infrastructure) | Infrastructure blog and documentation | Markdown, Hugo |
 
@@ -75,7 +75,7 @@ Real-time public transport tracking for Adelaide, Australia with live GPS positi
 
 ## 🛠️ Tech Stack
 
-**Languages:** Python, Go, Java, JavaScript, TypeScript, Bash
+**Languages:** Python, Go, Java, C++, JavaScript, TypeScript, Bash, C
 
 **Infrastructure:** Nomad, Consul, Vault, Docker, Terraform
 
@@ -129,7 +129,7 @@ Real-time public transport tracking for Adelaide, Australia with live GPS positi
 
 ### Languages
 <p>
-  <img src="https://skillicons.dev/icons?i=python,go,java,js,bash" />
+  <img src="https://skillicons.dev/icons?i=python,go,java,cpp,js,bash" />
 </p>
 
 ### Frontend
@@ -168,6 +168,7 @@ Real-time public transport tracking for Adelaide, Australia with live GPS positi
 *Building infrastructure that just works.*
 
 </div>
+
 
 
 
