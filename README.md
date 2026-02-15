@@ -114,31 +114,10 @@ Real-time public transport tracking for Adelaide, Australia with live GPS positi
 ## 📊 GitHub Stats
 
 <div align="center">
-  
-<img src="https://github-readme-stats.vercel.app/api?username=raya-ac&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" height="165" />
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=raya-ac&theme=github_dark&hide_border=true" height="165" />
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=raya-ac&layout=compact&theme=github_dark&hide_border=true&langs_count=8&hide=html,css" height="165" />
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=raya-ac&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true)](https://github.com/raya-ac)
 
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=raya-ac&theme=github_dark&no-frame=true&no-bg=true&margin-w=4&row=1" />
-
-</div>
-
----
-
-## 🔥 Activity Graph
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=raya-ac&theme=github-dark&hide_border=true&area=true" />
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=raya-ac&layout=compact&theme=github_dark&hide_border=true&langs_count=6&hide=html,css)](https://github.com/raya-ac)
 
 </div>
 
@@ -193,38 +172,6 @@ Real-time public transport tracking for Adelaide, Australia with live GPS positi
 
 ---
 
-## 🗺️ Visitor Map
-
-<div align="center">
-
-<img src="https://visitor-badge.laobi.icu/badge?page_id=raya-ac.raya-ac&left_text=Visitors&right_color=6366f1" />
-
-</div>
-
----
-
-## 📦 Top Repositories
-
-<div align="center">
-
-<a href="https://github.com/raya-ac/raya-monitor">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=raya-ac&repo=raya-monitor&theme=github_dark&hide_border=true" />
-</a>
-<a href="https://github.com/raya-ac/adelaide-metro-tracking">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=raya-ac&repo=adelaide-metro-tracking&theme=github_dark&hide_border=true" />
-</a>
-
-<a href="https://github.com/raya-ac/epstein-archive">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=raya-ac&repo=epstein-archive&theme=github_dark&hide_border=true" />
-</a>
-<a href="https://github.com/raya-hytale/webadmin">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=raya-hytale&repo=webadmin&theme=github_dark&hide_border=true" />
-</a>
-
-</div>
-
----
-
 <div align="center">
 
 <img src="https://komarev.com/ghpvc/?username=raya-ac&color=6366f1&style=flat-square&label=Profile+Views" />
@@ -232,6 +179,7 @@ Real-time public transport tracking for Adelaide, Australia with live GPS positi
 *Building infrastructure that just works.*
 
 </div>
+
 
 
 
