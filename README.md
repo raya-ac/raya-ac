@@ -109,11 +109,67 @@ Real-time public transport tracking for Adelaide, Australia with live GPS positi
 
 ---
 
+## 📊 GitHub Stats
+
 <div align="center">
+  
+<img src="https://github-readme-stats.vercel.app/api?username=raya-ac&show_icons=true&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true" height="165" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=raya-ac&theme=github_dark&hide_border=true" height="165" />
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=raya-ac&layout=compact&theme=github_dark&hide_border=true&langs_count=8&hide=html,css" height="165" />
+
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=raya-ac&theme=github_dark&no-frame=true&no-bg=true&margin-w=4&row=1" />
+
+</div>
+
+---
+
+## 🔥 Activity Graph
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=raya-ac&theme=github-dark&hide_border=true&area=true" />
+
+</div>
+
+---
+
+## 🎯 Currently
+
+- 🔭 **Working on:** Adelaide Metro Tracker improvements & distributed tracing
+- 🌱 **Learning:** Kubernetes operators & eBPF
+- 👯 **Looking to collaborate on:** Infrastructure tooling & observability projects
+- 💬 **Ask me about:** PostgreSQL at scale, Nomad, or SSL automation
+- ⚡ **Fun fact:** I run my own ASN for BGP experiments
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/raya-ac/raya-ac/output/github-contribution-grid-snake-dark.svg" />
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://komarev.com/ghpvc/?username=raya-ac&color=6366f1&style=flat-square&label=Profile+Views" />
 
 *Building infrastructure that just works.*
 
 </div>
+
 
 
 
