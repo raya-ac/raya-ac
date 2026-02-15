@@ -4,7 +4,7 @@
 
 **Infrastructure engineer building tools that scale**
 
-[<img src="https://img.shields.io/badge/Blog-raya.li-6366f1?style=flat-square&logo=hashnode">](https://raya.li/blog)
+[<img src="https://img.shields.io/badge/Blog-raya.li-6366f1?style=flat-square&logo=hashnode">](https://blog.raya.li)
 [<img src="https://img.shields.io/badge/Status-status.raya.li-22d3ee?style=flat-square&logo=statuspage">](https://status.raya.li)
 [<img src="https://img.shields.io/badge/Tools-raya.li-10b981?style=flat-square&logo=vercel">](https://raya.li)
 
@@ -65,7 +65,7 @@ Real-time public transport tracking for Adelaide, Australia with live GPS positi
 - [PostgreSQL Read Replicas: A Practical Guide](https://raya.li/blog/posts/postgres-replicas.html)
 <!-- BLOG-POST-LIST:END -->
 
-[>> Read all posts](https://raya.li/blog)
+[>> Read all posts](https://blog.raya.li)
 
 ---
 
@@ -102,7 +102,7 @@ Real-time public transport tracking for Adelaide, Australia with live GPS positi
 
 - 🌐 **Website:** [raya.li](https://raya.li)
 - 🏠 **Home:** [home.raya.li](https://home.raya.li)
-- 📝 **Blog:** [raya.li/blog](https://raya.li/blog)
+- 📝 **Blog:** [blog.raya.li](https://blog.raya.li)
 - 📊 **Status:** [status.raya.li](https://status.raya.li)
 - 🚌 **Transit:** [raya.li/adelaide-metro](https://raya.li/adelaide-metro)
 
@@ -113,3 +113,4 @@ Real-time public transport tracking for Adelaide, Australia with live GPS positi
 *Building infrastructure that just works.*
 
 </div>
+
