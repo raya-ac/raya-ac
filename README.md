@@ -155,6 +155,99 @@ Real-time public transport tracking for Adelaide, Australia with live GPS positi
 
 ---
 
+## 🛠️ Skills
+
+<div align="center">
+
+### Languages
+<p>
+  <img src="https://skillicons.dev/icons?i=python,go,java,js,bash,sql" />
+</p>
+
+### Frontend
+<p>
+  <img src="https://skillicons.dev/icons?i=react,vue,html,css,typescript" />
+</p>
+
+### Backend & Frameworks
+<p>
+  <img src="https://skillicons.dev/icons?i=flask,spring,nodejs" />
+</p>
+
+### Infrastructure & DevOps
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,nomad,nginx" />
+</p>
+
+### Databases
+<p>
+  <img src="https://skillicons.dev/icons?i=postgres,redis,sqlite,elasticsearch" />
+</p>
+
+### Cloud & Tools
+<p>
+  <img src="https://skillicons.dev/icons?i=aws,cloudflare,git,github,linux,vim" />
+</p>
+
+</div>
+
+---
+
+## 🎵 Now Playing
+
+<div align="center">
+
+[![Spotify](https://spotify-now-playing-raya-ac.vercel.app/api/spotify)](https://open.spotify.com/user/raya-ac)
+
+</div>
+
+---
+
+## 🗺️ Visitor Map
+
+<div align="center">
+
+![Visitor Map](https://profile-counter.glitch.me/raya-ac/count.svg)
+
+<img src="https://visitor-badge.laobi.icu/badge?page_id=raya-ac.raya-ac&left_text=Visitors&right_color=6366f1" />
+
+</div>
+
+---
+
+## 📅 Recent Activity
+
+<div align="center">
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+</div>
+
+---
+
+## 📦 Top Repositories
+
+<div align="center">
+
+<a href="https://github.com/raya-ac/raya-monitor">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=raya-ac&repo=raya-monitor&theme=github_dark&hide_border=true" />
+</a>
+<a href="https://github.com/raya-ac/adelaide-metro-tracking">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=raya-ac&repo=adelaide-metro-tracking&theme=github_dark&hide_border=true" />
+</a>
+
+<a href="https://github.com/raya-ac/epstein-archive">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=raya-ac&repo=epstein-archive&theme=github_dark&hide_border=true" />
+</a>
+<a href="https://github.com/raya-hytale/webadmin">
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=raya-hytale&repo=webadmin&theme=github_dark&hide_border=true" />
+</a>
+
+</div>
+
+---
+
 <div align="center">
 
 <img src="https://komarev.com/ghpvc/?username=raya-ac&color=6366f1&style=flat-square&label=Profile+Views" />
@@ -162,6 +255,7 @@ Real-time public transport tracking for Adelaide, Australia with live GPS positi
 *Building infrastructure that just works.*
 
 </div>
+
 
 
 
