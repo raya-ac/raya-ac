@@ -32,7 +32,6 @@ I design, build, and operate distributed systems. Currently running **15 nodes a
 |---------|-------------|------------|
 | [**raya-monitor**](https://github.com/raya-ac/raya-monitor) | Distributed monitoring system handling 2.4M requests/day | Python, PostgreSQL, Redis, Nomad |
 | [**adelaide-metro-tracking**](https://github.com/raya-ac/adelaide-metro-tracking) | Real-time public transport tracker for Adelaide 🚌 | Python, Flask, GTFS-realtime, WebSocket |
-| [**awesome-infrastructure**](https://github.com/raya-ac/awesome-infrastructure) | Curated list of infrastructure resources | Markdown, Community |
 | [**raya-infrastructure**](https://github.com/raya-ac/raya-infrastructure) | Infrastructure blog and documentation | Markdown, Hugo |
 
 ---
@@ -113,4 +112,5 @@ Real-time public transport tracking for Adelaide, Australia with live GPS positi
 *Building infrastructure that just works.*
 
 </div>
+
 
