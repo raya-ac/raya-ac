@@ -72,13 +72,13 @@
         │                       │                       │
 ┌───────▼────────┐    ┌────────▼────────┐   ┌────────▼────────┐
 │  Monitor Core   │    │   SaaS Admin    │   │  Tool Registry  │
-│  Python/WebSocket│   │   Billing/Auth   │   │   90+ Utils     │
+│  Python/WebSocket│   │   Billing/Auth   │   │   100+ Utils    │
 └───────┬────────┘    └────────┬────────┘   └────────┬────────┘
         │                      │                      │
         └──────────────────────┼──────────────────────┘
                                │
 ┌──────────────────────────────▼─────────────────────────────────────────┐
-│                    PostgreSQL Cluster                                   │
+│                    PostgreSQL Cluster + Redis Cache                     │
 │              (Primary • Read Replicas • Backups)                       │
 └─────────────────────────────────────────────────────────────────────────┘
 ```
@@ -106,10 +106,19 @@
 ### DevOps & Infrastructure
 <p>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
   <img src="https://img.shields.io/badge/Tailscale-000000?style=flat-square&logo=tailscale&logoColor=white" />
   <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+</p>
+
+### Monitoring & Observability
+<p>
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
+  <img src="https://img.shields.io/badge/Loki-F46800?style=flat-square&logo=grafana&logoColor=white" />
+  <img src="https://img.shields.io/badge/Alertmanager-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
 </p>
 
 ### Frontend
@@ -132,7 +141,7 @@
 <p><em>Real-time infrastructure monitoring with WebSocket live updates</em></p>
 
 <img src="https://img.shields.io/badge/status-production-success?style=flat-square" />
-<img src="https://img.shields.io/badge/requests-2M%2Fday-blue?style=flat-square" />
+<img src="https://img.shields.io/badge/requests-2.4M%2Fday-blue?style=flat-square" />
 <img src="https://img.shields.io/badge/nodes-15+-orange?style=flat-square" />
 
 ```
@@ -142,16 +151,33 @@
 PostgreSQL + WebSocket • Custom dashboards • 99.97% uptime
 ```
 
-**Stack:** `Python` `Flask` `Socket.io` `PostgreSQL` `Redis`
+**Stack:** `Python` `Flask` `Socket.io` `PostgreSQL` `Redis` `Prometheus` `Grafana`
+
+---
+
+### 🏠 home.raya.li
+<p><em>Unified landing page for all raya.li services</em></p>
+
+<img src="https://img.shields.io/badge/status-live-success?style=flat-square" />
+<img src="https://img.shields.io/badge/services-100+-blue?style=flat-square" />
+
+```
+Centralized service discovery • Unified theming • Quick navigation
+Responsive design • Dark mode • Tool categorization
+```
+
+🔗 **Live:** [home.raya.li](https://home.raya.li)
+
+**Stack:** `HTML5` `CSS3` `JavaScript`
 
 ---
 
 ### 🛠️ raya-tools
-<p><em>Collection of 90+ utilities for developers and sysadmins</em></p>
+<p><em>Collection of 100+ utilities for developers and sysadmins</em></p>
 
 <img src="https://img.shields.io/badge/status-public-success?style=flat-square" />
 <img src="https://img.shields.io/badge/users-10k%2Fmonth-blue?style=flat-square" />
-<img src="https://img.shields.io/badge/tools-90+-orange?style=flat-square" />
+<img src="https://img.shields.io/badge/tools-100+-orange?style=flat-square" />
 
 ```
 Network diagnostics • Security tools • Data transformers • Developer utilities
@@ -224,6 +250,22 @@ Timeline visualization • Entity recognition • PDF export
 | 🍪 Sessions | Signed cookies (subdomain) |
 | 🔗 Network | Tailscale mesh VPN |
 | 🔑 Secrets | Environment-based |
+| 🔍 Scanning | Automated security scanning |
+
+</div>
+
+## 📝 Recent Blog Posts
+
+<div align="center">
+
+| Post | Topic | Date |
+|:-----|:------|:----:|
+| [Blue-Green Deployments](https://raya.li/blog/posts/blue-green-deployments.html) | Zero-downtime deployment strategy | Feb 2026 |
+| [Loki Log Aggregation](https://raya.li/blog/posts/loki-logging.html) | Centralized logging with Grafana Loki | Feb 2026 |
+| [Rate Limiting](https://raya.li/blog/posts/rate-limiting.html) | Token bucket implementation | Feb 2026 |
+| [Automated Backups](https://raya.li/blog/posts/automated-backups.html) | 3-2-1-1-0 backup strategy | Feb 2026 |
+
+📖 **All posts:** [raya.li/blog](https://raya.li/blog/)
 
 </div>
 
@@ -239,31 +281,37 @@ Timeline visualization • Entity recognition • PDF export
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Next_30_Days-6_tasks-blueviolet?style=for-the-badge" />
-<img src="https://img.shields.io/badge/3--6_Months-5_tasks-orange?style=for-the-badge" />
-<img src="https://img.shields.io/badge/6+_Months-5_tasks-red?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Recently_Completed-✓-success?style=for-the-badge" />
+<img src="https://img.shields.io/badge/In_Progress-🔄-blue?style=for-the-badge" />
 
 </div>
 
-### 📅 Short Term (30 Days)
+### ✅ Recently Completed
+- [x] **home.raya.li** landing page
+- [x] Prometheus + Grafana monitoring stack
+- [x] Redis caching layer
+- [x] Terraform infrastructure as code
+- [x] Automated security scanning
+- [x] Blue-green deployment strategy
+- [x] Loki log aggregation
+- [x] SQLite → PostgreSQL migration
+
+### 🔄 In Progress
 - [ ] Distributed tracing across services
-- [ ] Prometheus metrics export
 - [ ] Public API documentation site
-- [ ] Grafana infrastructure dashboards
 - [ ] Automated backup verification
 
-### 📆 Medium Term (3-6 Months)
-- [ ] SQLite → PostgreSQL migration
+### 📆 Upcoming (3-6 Months)
 - [ ] Linkerd service mesh
 - [ ] Custom status page
 - [ ] Anomaly detection for alerts
 - [ ] Incident postmortem archive
 
-### 📅 Long Term (6+ Months)
+### 📅 Future (6+ Months)
 - [ ] Multi-region DB replication
 - [ ] Kubernetes migration
 - [ ] Custom metrics collector (Go)
-- [ ] Infrastructure blog
+- [ ] Infrastructure blog series
 - [ ] Open-source internal tools
 
 ## 📈 GitHub Stats
@@ -281,8 +329,9 @@ Timeline visualization • Entity recognition • PDF export
   
   <p>
     <a href="https://raya.li">🌐 raya.li</a> • 
+    <a href="https://home.raya.li">🏠 Home</a> • 
     <a href="https://status.raya.li">📊 Status</a> • 
-    <a href="https://raya.li/tools">🛠️ Tools</a>
+    <a href="https://raya.li/blog">📝 Blog</a>
   </p>
 
   <!-- Footer -->
