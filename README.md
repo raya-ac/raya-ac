@@ -35,6 +35,7 @@ I design, build, and operate distributed systems. Currently running **15 nodes a
 | [**adelaide-metro-tracking**](https://github.com/raya-ac/adelaide-metro-tracking) | Real-time public transport tracker for Adelaide 🚌 | Python, Flask, GTFS-realtime, WebSocket |
 | [**epstein-archive**](https://github.com/raya-ac/epstein-archive) | Document archive with full-text search & timeline visualization | Python, Elasticsearch, PostgreSQL |
 | [**hytale-webadmin**](https://github.com/raya-hytale/webadmin) | Web-based admin panel for Hytale servers | Java, Spring Boot, WebSocket, React |
+| [**auth-bypass**](https://github.com/raya-ac/auth-bypass) | Authentication bypass testing toolkit | Go, Security Research |
 | [**raya-tools**](https://raya.li) | Collection of 100+ network & developer utilities | Python, Go, Redis, Cloudflare Workers |
 | [**raya-infrastructure**](https://github.com/raya-ac/raya-infrastructure) | Infrastructure blog and documentation | Markdown, Hugo |
 
@@ -74,7 +75,7 @@ Real-time public transport tracking for Adelaide, Australia with live GPS positi
 
 ## 🛠️ Tech Stack
 
-**Languages:** Python, Go, Java, Bash, SQL, JavaScript
+**Languages:** Python, Go, Java, JavaScript, TypeScript, Bash
 
 **Infrastructure:** Nomad, Consul, Vault, Docker, Terraform
 
@@ -108,18 +109,6 @@ Real-time public transport tracking for Adelaide, Australia with live GPS positi
 - 📝 **Blog:** [blog.raya.li](https://blog.raya.li)
 - 📊 **Status:** [status.raya.li](https://status.raya.li)
 - 🚌 **Transit:** [raya.li/adelaide-metro](https://raya.li/adelaide-metro)
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=raya-ac&theme=github_dark&hide_border=true&count_private=true&include_all_commits=true)](https://github.com/raya-ac)
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=raya-ac&layout=compact&theme=github_dark&hide_border=true&langs_count=6&hide=html,css)](https://github.com/raya-ac)
-
-</div>
 
 ---
 
@@ -179,6 +168,7 @@ Real-time public transport tracking for Adelaide, Australia with live GPS positi
 *Building infrastructure that just works.*
 
 </div>
+
 
 
 
