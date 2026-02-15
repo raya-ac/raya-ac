@@ -33,6 +33,7 @@ I design, build, and operate distributed systems. Currently running **15 nodes a
 | [**raya-monitor**](https://github.com/raya-ac/raya-monitor) | Distributed monitoring system handling 2.4M requests/day | Python, PostgreSQL, Redis, Nomad |
 | [**adelaide-metro-tracking**](https://github.com/raya-ac/adelaide-metro-tracking) | Real-time public transport tracker for Adelaide 🚌 | Python, Flask, GTFS-realtime, WebSocket |
 | [**epstein-archive**](https://github.com/raya-ac/epstein-archive) | Document archive with full-text search & timeline visualization | Python, Elasticsearch, PostgreSQL |
+| [**hytale-webadmin**](https://github.com/raya-hytale/webadmin) | Web-based admin panel for Hytale servers | Python, Flask, WebSocket |
 | [**raya-tools**](https://raya.li) | Collection of 100+ network & developer utilities | Python, Go, Redis, Cloudflare Workers |
 | [**raya-infrastructure**](https://github.com/raya-ac/raya-infrastructure) | Infrastructure blog and documentation | Markdown, Hugo |
 
@@ -144,21 +145,12 @@ Real-time public transport tracking for Adelaide, Australia with live GPS positi
 
 ## 🎯 Currently
 
-- 🔭 **Working on:** Adelaide Metro Tracker improvements & distributed tracing
+- 🔭 **Working on:** [Hytale WebAdmin](https://github.com/raya-hytale/webadmin) — Web-based admin panel for Hytale servers
+- 🚌 **Shipping:** Adelaide Metro Tracker improvements
 - 🌱 **Learning:** Kubernetes operators & eBPF
 - 👯 **Looking to collaborate on:** Infrastructure tooling & observability projects
 - 💬 **Ask me about:** PostgreSQL at scale, Nomad, or SSL automation
 - ⚡ **Fun fact:** I run my own ASN for BGP experiments
-
----
-
-## 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/raya-ac/raya-ac/output/github-contribution-grid-snake-dark.svg" />
-
-</div>
 
 ---
 
@@ -169,6 +161,7 @@ Real-time public transport tracking for Adelaide, Australia with live GPS positi
 *Building infrastructure that just works.*
 
 </div>
+
 
 
 
