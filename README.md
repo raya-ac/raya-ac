@@ -1,340 +1,115 @@
 <div align="center">
-  
-  <!-- Animated Header -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0A,50:1a1a2e,100:16213e&height=200&section=header&text=raya.ac&fontSize=70&fontColor=fff&animation=fadeIn&fontAlignY=35&desc=Infrastructure%20%26%20Archive%20Systems&descAlignY=55&descSize=20" />
 
-  <!-- Badges -->
-  <p>
-    <a href="https://raya.li">
-      <img src="https://img.shields.io/badge/🌐%20raya.li-000000?style=for-the-badge&logoColor=white" alt="Website" />
-    </a>
-    <a href="https://status.raya.li">
-      <img src="https://img.shields.io/badge/Status-Operational-22c55e?style=for-the-badge&logo=statuspage&logoColor=white" alt="Status" />
-    </a>
-    <a href="#">
-      <img src="https://img.shields.io/badge/Uptime-99.97%25-3b82f6?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Uptime" />
-    </a>
-    <a href="#">
-      <img src="https://img.shields.io/badge/Requests-2.4M%2Fday-f97316?style=for-the-badge&logo=fastapi&logoColor=white" alt="Requests" />
-    </a>
-  </p>
+# 👋 Hi, I'm raya
 
-  <p>
-    <strong>🔧 Infrastructure • 📊 Monitoring • 🌐 Distributed Systems • 📚 Digital Archives</strong>
-  </p>
+**Infrastructure engineer building tools that scale**
+
+[<img src="https://img.shields.io/badge/Blog-raya.li-6366f1?style=flat-square&logo=hashnode">](https://raya.li/blog)
+[<img src="https://img.shields.io/badge/Status-status.raya.li-22d3ee?style=flat-square&logo=statuspage">](https://status.raya.li)
+[<img src="https://img.shields.io/badge/Tools-raya.li-10b981?style=flat-square&logo=vercel">](https://raya.li)
 
 </div>
 
 ---
 
-<!-- About Section with Typing Effect -->
-<div align="center">
-  
+## 🚀 What I Do
+
+I design, build, and operate distributed systems. Currently running **15 nodes across 4 countries** with **99.97% uptime**.
+
+### Core Competencies
+
+- **Infrastructure as Code** — Terraform, Nomad, Docker
+- **Monitoring & Observability** — Prometheus, Grafana, Loki, Jaeger, custom monitoring systems
+- **Databases** — PostgreSQL, Redis, Elasticsearch at scale
+- **Networking** — Cloudflare, Tailscale, custom firewall rules
+- **Security** — SSL automation, intrusion detection, security hardening
+
+---
+
+## 📊 Current Projects
+
+| Project | Description | Tech Stack |
+|---------|-------------|------------|
+| [**raya-monitor**](https://github.com/raya-ac/raya-monitor) | Distributed monitoring system handling 2.4M requests/day | Python, PostgreSQL, Redis, Nomad |
+| [**adelaide-metro-tracking**](https://github.com/raya-ac/adelaide-metro-tracking) | Real-time public transport tracker for Adelaide 🚌 | Python, Flask, GTFS-realtime, WebSocket |
+| [**awesome-infrastructure**](https://github.com/raya-ac/awesome-infrastructure) | Curated list of infrastructure resources | Markdown, Community |
+| [**raya-infrastructure**](https://github.com/raya-ac/raya-infrastructure) | Infrastructure blog and documentation | Markdown, Hugo |
+
+---
+
+## 🚌 Adelaide Metro Tracker — NEW
+
+Real-time public transport tracking for Adelaide, Australia with live GPS positions, trip planning, and journey notifications.
+
+**Live:** [raya.li/adelaide-metro](https://raya.li/adelaide-metro)
+
 ```
-┌─────────────────────────────────────────────────────────────────────┐
-│                                                                     │
-│   Building resilient infrastructure that scales across continents   │
-│                                                                     │
-│   15+ nodes • 4 regions • Sub-second latency • 2M+ requests/day    │
-│                                                                     │
-└─────────────────────────────────────────────────────────────────────┘
+✅ Live GPS tracking of all buses, trains, and trams
+✅ Trip planner with walking directions  
+✅ Push notifications when transport is approaching
+✅ Offline support with service worker caching
+✅ Trip sharing via QR codes
+✅ Dark/Light/High contrast themes
+✅ WCAG 2.1 AA accessible
 ```
 
-</div>
+---
 
-## 🗺️ Global Infrastructure
+## 📝 Latest from the Blog
 
-<div align="center">
+<!-- BLOG-POST-LIST:START -->
+- [Blue-Green Deployments: Zero-Downtime Strategy](https://raya.li/blog/posts/blue-green-deployments.html)
+- [Loki Log Aggregation: Centralized Logging](https://raya.li/blog/posts/loki-logging.html)
+- [Rate Limiting: Token Bucket Implementation](https://raya.li/blog/posts/rate-limiting.html)
+- [Automated Backups: 3-2-1-1-0 Strategy](https://raya.li/blog/posts/automated-backups.html)
+- [PostgreSQL Read Replicas: A Practical Guide](https://raya.li/blog/posts/postgres-replicas.html)
+<!-- BLOG-POST-LIST:END -->
 
-| 🌏 Region | 🏢 Provider | 🔢 Nodes | ⏱️ Latency | 📡 Status |
-|:---------:|:-----------:|:--------:|:----------:|:---------:|
-| 🇦🇺 Sydney | OVH | 2 | 12ms | 🟢 Operational |
-| 🇸🇬 Singapore | AWS | 1 | 45ms | 🟢 Operational |
-| 🇨🇦 Montreal | OVH | 1 | 89ms | 🟢 Operational |
-| 🇦🇺 Melbourne | Local | 1 | 8ms | 🟢 Operational |
+[>> Read all posts](https://raya.li/blog)
 
-</div>
-
-## 🏗️ Architecture
-
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                           Cloudflare Edge                               │
-│                    (DDoS Protection • CDN • WAF)                        │
-└───────────────────────────────┬─────────────────────────────────────────┘
-                                │
-┌───────────────────────────────▼─────────────────────────────────────────┐
-│                         Nginx Gateway                                   │
-│                 (SSL Termination • Load Balancing)                      │
-└───────────────────────────────┬─────────────────────────────────────────┘
-                                │
-        ┌───────────────────────┼───────────────────────┐
-        │                       │                       │
-┌───────▼────────┐    ┌────────▼────────┐   ┌────────▼────────┐
-│  Monitor Core   │    │   SaaS Admin    │   │  Tool Registry  │
-│  Python/WebSocket│   │   Billing/Auth   │   │   100+ Utils    │
-└───────┬────────┘    └────────┬────────┘   └────────┬────────┘
-        │                      │                      │
-        └──────────────────────┼──────────────────────┘
-                               │
-┌──────────────────────────────▼─────────────────────────────────────────┐
-│                    PostgreSQL Cluster + Redis Cache                     │
-│              (Primary • Read Replicas • Backups)                       │
-└─────────────────────────────────────────────────────────────────────────┘
-```
+---
 
 ## 🛠️ Tech Stack
 
-<div align="center">
+**Languages:** Python, Go, Bash, SQL, JavaScript
 
-### Backend & Systems
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
-</p>
+**Infrastructure:** Nomad, Consul, Vault, Docker, Terraform
 
-### Databases & Caching
-<p>
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white" />
-</p>
+**Databases:** PostgreSQL, Redis, SQLite, Elasticsearch
 
-### DevOps & Infrastructure
-<p>
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailscale-000000?style=flat-square&logo=tailscale&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
-</p>
+**Monitoring:** Prometheus, Grafana, Loki, Jaeger, Custom collectors
 
-### Monitoring & Observability
-<p>
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
-  <img src="https://img.shields.io/badge/Loki-F46800?style=flat-square&logo=grafana&logoColor=white" />
-  <img src="https://img.shields.io/badge/Alertmanager-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
-</p>
+**Cloud:** OVH, AWS, Cloudflare
 
-### Frontend
-<p>
-  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/WebSocket-010101?style=flat-square&logo=socketdotio&logoColor=white" />
-</p>
-
-</div>
-
-## 📦 Projects
-
-<div align="center">
-
-<!-- Project Cards -->
-
-### 🖥️ raya-monitor
-<p><em>Real-time infrastructure monitoring with WebSocket live updates</em></p>
-
-<img src="https://img.shields.io/badge/status-production-success?style=flat-square" />
-<img src="https://img.shields.io/badge/requests-2.4M%2Fday-blue?style=flat-square" />
-<img src="https://img.shields.io/badge/nodes-15+-orange?style=flat-square" />
-
-```
-15+ monitored nodes • Sub-second metrics • Automated alerting
-
-<img src="assets/screenshot-dashboard.png" alt="Dashboard" width="600" />
-PostgreSQL + WebSocket • Custom dashboards • 99.97% uptime
-```
-
-**Stack:** `Python` `Flask` `Socket.io` `PostgreSQL` `Redis` `Prometheus` `Grafana`
+**Networking:** Tailscale, WireGuard, nginx
 
 ---
 
-### 🏠 home.raya.li
-<p><em>Unified landing page for all raya.li services</em></p>
-
-<img src="https://img.shields.io/badge/status-live-success?style=flat-square" />
-<img src="https://img.shields.io/badge/services-100+-blue?style=flat-square" />
+## 📈 Stats
 
 ```
-Centralized service discovery • Unified theming • Quick navigation
-Responsive design • Dark mode • Tool categorization
+🌐 15 nodes across 4 countries
+📊 2.4M requests/day monitored
+🚌 Real-time transit tracking
+⏱️ 99.97% uptime
+🚀 30-second deployments
+🛠️ 100+ network tools
 ```
-
-🔗 **Live:** [home.raya.li](https://home.raya.li)
-
-**Stack:** `HTML5` `CSS3` `JavaScript`
 
 ---
 
-### 🛠️ raya-tools
-<p><em>Collection of 100+ utilities for developers and sysadmins</em></p>
+## 📫 Get in Touch
 
-<img src="https://img.shields.io/badge/status-public-success?style=flat-square" />
-<img src="https://img.shields.io/badge/users-10k%2Fmonth-blue?style=flat-square" />
-<img src="https://img.shields.io/badge/tools-100+-orange?style=flat-square" />
-
-```
-Network diagnostics • Security tools • Data transformers • Developer utilities
-Go + Vue.js • Redis caching • Cloudflare Workers • 10k+ monthly users
-```
-
-**Stack:** `Go` `Vue.js` `Redis` `Cloudflare Workers`
-
----
-
-### 💳 subscription-platform
-<p><em>Billing and subscription management with Stripe integration</em></p>
-
-<img src="https://img.shields.io/badge/status-production-success?style=flat-square" />
-<img src="https://img.shields.io/badge/tiers-Free%2FPro%2FAPI-blue?style=flat-square" />
-<img src="https://img.shields.io/badge/payments-Stripe-635BFF?style=flat-square" />
-
-```
-Tiered plans • Credit-based usage • API key provisioning • Usage analytics
-Real-time balance • Webhook handling • Automated rotation
-```
-
-**Stack:** `Python` `PostgreSQL` `Stripe API` `Redis`
-
----
-
-### 📚 epstein-archive
-<p><em>Large-scale document archive with full-text search</em></p>
-
-<img src="https://img.shields.io/badge/status-public-success?style=flat-square" />
-<img src="https://img.shields.io/badge/documents-100k+-blue?style=flat-square" />
-<img src="https://img.shields.io/badge/search-Elasticsearch-005571?style=flat-square" />
-
-```
-100k+ documents indexed • Full-text search • OCR fallback
-Timeline visualization • Entity recognition • PDF export
-```
-
-🔗 **Live:** [hmm.raya.li](https://hmm.raya.li)
-
-**Stack:** `Python` `Elasticsearch` `PostgreSQL` `Tesseract OCR`
-
-</div>
-
-## 📊 Performance Metrics
-
-<div align="center">
-
-| Metric | Current | Target | Status |
-|:------:|:-------:|:------:|:------:|
-| ⚡ API Response (p99) | 45ms | <100ms | 🟢 |
-| 🔌 WebSocket Latency | 12ms | <50ms | 🟢 |
-| 💾 DB Query (p95) | 8ms | <20ms | 🟢 |
-| 📈 System Uptime | 99.97% | 99.9% | 🟢 |
-| 🌍 Global Availability | 99.99% | 99.9% | 🟢 |
-| 📨 Requests (24h) | 2.4M | - | - |
-
-</div>
-
-## 🔒 Security Posture
-
-<div align="center">
-
-| Layer | Implementation |
-|:-----:|:--------------|
-| 🌐 Edge | Cloudflare DDoS (L3-7) |
-| 🔥 Firewall | UFW + Cloudflare IP whitelist |
-| 🔐 Encryption | Let's Encrypt wildcard SSL |
-| 🗝️ Auth | API keys + rate limiting |
-| 🍪 Sessions | Signed cookies (subdomain) |
-| 🔗 Network | Tailscale mesh VPN |
-| 🔑 Secrets | Environment-based |
-| 🔍 Scanning | Automated security scanning |
-
-</div>
-
-## 📝 Recent Blog Posts
-
-<div align="center">
-
-| Post | Topic | Date |
-|:-----|:------|:----:|
-| [Blue-Green Deployments](https://raya.li/blog/posts/blue-green-deployments.html) | Zero-downtime deployment strategy | Feb 2026 |
-| [Loki Log Aggregation](https://raya.li/blog/posts/loki-logging.html) | Centralized logging with Grafana Loki | Feb 2026 |
-| [Rate Limiting](https://raya.li/blog/posts/rate-limiting.html) | Token bucket implementation | Feb 2026 |
-| [Automated Backups](https://raya.li/blog/posts/automated-backups.html) | 3-2-1-1-0 backup strategy | Feb 2026 |
-
-📖 **All posts:** [raya.li/blog](https://raya.li/blog/)
-
-</div>
-
-## 💭 Philosophy
-
-> Ship fast, fix faster. Deploy daily, monitor constantly.
-> 
-> If it can't be measured, it doesn't exist. Readability > brevity.
-> 
-> Prefer self-hosted over SaaS. Open by default.
-
-## 🎯 Roadmap
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Recently_Completed-✓-success?style=for-the-badge" />
-<img src="https://img.shields.io/badge/In_Progress-🔄-blue?style=for-the-badge" />
-
-</div>
-
-### ✅ Recently Completed
-- [x] **home.raya.li** landing page
-- [x] Prometheus + Grafana monitoring stack
-- [x] Redis caching layer
-- [x] Terraform infrastructure as code
-- [x] Automated security scanning
-- [x] Blue-green deployment strategy
-- [x] Loki log aggregation
-- [x] SQLite → PostgreSQL migration
-
-### 🔄 In Progress
-- [ ] Distributed tracing across services
-- [ ] Public API documentation site
-- [ ] Automated backup verification
-
-### 📆 Upcoming (3-6 Months)
-- [ ] Linkerd service mesh
-- [ ] Custom status page
-- [ ] Anomaly detection for alerts
-- [ ] Incident postmortem archive
-
-### 📅 Future (6+ Months)
-- [ ] Multi-region DB replication
-- [ ] Kubernetes migration
-- [ ] Custom metrics collector (Go)
-- [ ] Infrastructure blog series
-- [ ] Open-source internal tools
-
-## 📈 GitHub Stats
-
-<div align="center">
-  
-<img src="https://github-readme-stats.vercel.app/api?username=raya-ac&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" height="165" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=raya-ac&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&hide=html,css&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="165" />
-
-</div>
+- 🌐 **Website:** [raya.li](https://raya.li)
+- 🏠 **Home:** [home.raya.li](https://home.raya.li)
+- 📝 **Blog:** [raya.li/blog](https://raya.li/blog)
+- 📊 **Status:** [status.raya.li](https://status.raya.li)
+- 🚌 **Transit:** [raya.li/adelaide-metro](https://raya.li/adelaide-metro)
 
 ---
 
 <div align="center">
-  
-  <p>
-    <a href="https://raya.li">🌐 raya.li</a> • 
-    <a href="https://home.raya.li">🏠 Home</a> • 
-    <a href="https://status.raya.li">📊 Status</a> • 
-    <a href="https://raya.li/blog">📝 Blog</a>
-  </p>
 
-  <!-- Footer -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A0A0A,50:1a1a2e,100:16213e&height=100&section=footer" />
+*Building infrastructure that just works.*
 
 </div>
