@@ -8,14 +8,14 @@ https://blog.raya.li • https://status.raya.li • https://raya.li
 
 ## 🎮 Games & Simulations
 
-| Game | Description | Live |
+| Game | Description | Play |
 |------|-------------|------|
-| **[Life Simulator](https://raya.li/life)** | Ultimate life simulation with 40+ jobs, crime system, relationships, skills, and full persistence | [Play →](https://raya.li/life) |
-| **[Game of Life 3D](https://raya.li/gol3d)** | 3D cellular automaton with voxel rendering | [Play →](https://raya.li/gol3d) |
-| **[Game of Life 4D](https://raya.li/gol4d)** | 4D hypercube cellular automaton | [Play →](https://raya.li/gol4d) |
-| **[Life 2D](https://raya.li/life2d)** | Classic Conway's Game of Life with custom rules | [Play →](https://raya.li/life2d) |
-| **[War Simulation](https://raya.li/war)** | Multi-agent battle simulation | [Play →](https://raya.li/war) |
-| **[Particle System](https://raya.li/particles)** | Interactive particle physics playground | [Play →](https://raya.li/particles) |
+| **[Life Simulator](https://raya-ac.github.io/raya-games/games/life-simulator.html)** | Ultimate life simulation with 40+ jobs, crime system, relationships, skills, and full persistence | [▶ Play](https://raya-ac.github.io/raya-games/games/life-simulator.html) |
+| **[Game of Life 3D](https://raya-ac.github.io/raya-games/games/gol3d.html)** | 3D cellular automaton with voxel rendering | [▶ Play](https://raya-ac.github.io/raya-games/games/gol3d.html) |
+| **[Game of Life 4D](https://raya-ac.github.io/raya-games/games/gol4d.html)** | 4D hypercube cellular automaton | [▶ Play](https://raya-ac.github.io/raya-games/games/gol4d.html) |
+| **[Life 2D](https://raya-ac.github.io/raya-games/games/life2d.html)** | Classic Conway's Game of Life with custom rules | [▶ Play](https://raya-ac.github.io/raya-games/games/life2d.html) |
+| **[War Simulation](https://raya-ac.github.io/raya-games/games/war.html)** | Multi-agent battle simulation | [▶ Play](https://raya-ac.github.io/raya-games/games/war.html) |
+| **[Particle System](https://raya-ac.github.io/raya-games/games/particles.html)** | Interactive particle physics playground | [▶ Play](https://raya-ac.github.io/raya-games/games/particles.html) |
 
 ---
 
