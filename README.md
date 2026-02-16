@@ -45,6 +45,8 @@ I design, build, and operate distributed systems. Currently running 15 nodes acr
 | [auth-bypass](https://github.com/raya-ac/auth-bypass) | osu! authentication bypass using DLL injection | C++, C, Windows API |
 | [raya-tools](https://raya.li) | Collection of 100+ network & developer utilities | Python, Go, Redis, Cloudflare Workers |
 | [raya-infrastructure](https://github.com/raya-ac/raya-infrastructure) | Infrastructure blog and documentation | Markdown, Hugo |
+| [raya-games](https://github.com/raya-ac/raya-games) | Browser-based games and simulations | HTML5, JavaScript, Python |
+
 
 ---
 
