@@ -21,13 +21,12 @@
 
 | project | what it does | stack |
 -------|--------------|-------|
-| {**cognitive_v2**}(https://mind.raya.li/v2) | file-first AI memory — markdown as source of truth, multi-agent coordination | go, postgres, redis ||
-| {**neuro-memory**}(https://github.com/raya-ac/neuro-memory) | 4-layer cognitive memory architecture for AI agents | python, sqlite, neo4j ||
-| {**raya-games**}(https://github.com/raya-ac/raya-games) | browser games: life simulators, 4D cellular automata, particle physics | javascript, canvas, webgl ||
-| {**adelaide-metro-tracking**}(https://github.com/raya-ac/adelaide-metro-tracking) | real-time GFTS transit tracker for Adelaide | python, fastapi, gtfs ||
-| {**unredactor**}(https://github.com/raya-ac/unredactor) | document analysis tool for redacted text reconstruction | python, nlp, ml ||
-| {**dns-proxy**}(https://github.com/raya-ac/dns-proxy) | DNS-based traffic routing for geo-unblocking | node.js, docker, networking ||
-
+| {![cognitive_v2](https://mind.raya.li/v2)} | file-first AI memory — markdown as source of truth, multi-agent coordination | go, postgres, redis ||
+| {[neuro-memory](https://github.com/raya-ac/neuro-memory)} | 4-layer cognitive memory architecture for AI agents | python, sqlite, neo4j ||
+| {[raya-games](https://github.com/raya-ac/raya-games)} | browser games: life simulators, 4D cellular automata, particle physics | javascript, canvas, webgl ||
+| {[adelaide-metro-tracking](https://github.com/raya-ac/adelaide-metro-tracking)} | real-time GTFS transit tracker for Adelaide | python, fastapi, gtfs ||
+| {[\unredactor](https://github.com/raya-ac/unredactor)} | document analysis tool for redacted text reconstruction | python, nlp, ml ||
+| {[dns-proxy](https://github.com/raya-ac/dns-proxy)} | DNS-based traffic routing for geo-unblocking | node.js, docker, networking ||
 
 ---
 
@@ -35,8 +34,8 @@
 
 ```
 languages      go  python  c++  javascript  typescript  rust  bash
-infra          nomad  consul  vault  docker  terraform  css
-vault          postgresql  redis  sqlite  elasticsearch  neo4j
+infra          nomad  consul  vault  docker  terraform  kubernetes
+databases      postgresql  redis  sqlite  elasticsearch  neo4j
 observability  prometheus  grafana  loki  jaeger  custom exporters
 network        tailscale  wireguard  nginx  cloudflare  own ASN
 cloud          ovh  aws  cloudflare workers  bare metal
@@ -47,10 +46,10 @@ cloud          ovh  aws  cloudflare workers  bare metal
 <h2>current stats</h2>
 
 ```
-15 nodes across 4 countries2
+15 nodes across 4 countries
 2.4M requests/day through raya-monitor
 100+ network & dev tools in raya-tools
-100k+ documents indexed in epstein-archive
+10k+ documents indexed in epstein-archive
 6 browser games shipped
 2 AI agents with persistent memory
 99.97% uptime
@@ -71,8 +70,8 @@ cloud          ovh  aws  cloudflare workers  bare metal
 
 <h2>now</h2>
 
-- shipping `cognitive_v2` — multi-agent memory with mission control
-- learning kubernetes operators & eBPF internals
+- shipping cognitive_v2 — multi-agent memory with mission control
+- learning kubernetes operators & eBFF internals
 - improving adelaide metro tracker
 - open to collaborating on infra tooling & observability
 
