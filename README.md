@@ -21,12 +21,12 @@
 
 | project | what it does | stack |
 -------|--------------|-------|
-| {![cognitive_v2](https://mind.raya.li/v2)} | file-first AI memory — markdown as source of truth, multi-agent coordination | go, postgres, redis ||
-| {[neuro-memory](https://github.com/raya-ac/neuro-memory)} | 4-layer cognitive memory architecture for AI agents | python, sqlite, neo4j ||
-| {[raya-games](https://github.com/raya-ac/raya-games)} | browser games: life simulators, 4D cellular automata, particle physics | javascript, canvas, webgl ||
-| {[adelaide-metro-tracking](https://github.com/raya-ac/adelaide-metro-tracking)} | real-time GTFS transit tracker for Adelaide | python, fastapi, gtfs ||
-| {[\unredactor](https://github.com/raya-ac/unredactor)} | document analysis tool for redacted text reconstruction | python, nlp, ml ||
-| {[dns-proxy](https://github.com/raya-ac/dns-proxy)} | DNS-based traffic routing for geo-unblocking | node.js, docker, networking ||
+|<a href="https://mind.raya.li/v2">cognitive_v2</a> | file-first AI memory — markdown as source of truth, multi-agent coordination | go, postgres, redis ||
+| <a href="https://github.com/raya-ac/neuro-memory">neuro-memory</a> | 4-layer cognitive memory architecture for AI agents | python, sqlite, neo4j ||
+| <a href="https://github.com/raya-ac/raya-games">raya-games</a> | browser games: life simulators, 4D cellular automata, particle physics | javascript, canvas, webgl ||
+|<a href="https://github.com/raya-ac/adelaide-metro-tracking">adelaide-metro-tracking</a> | real-time GTFS transit tracker for Adelaide | python, fastapi, gtfs ||
+|<a href="https://github.com/raya-ac/unredactor">unredactor</a> | document analysis tool for redacted text reconstruction | python, nlp, ml ||
+|<a href="https://github.com/raya-ac/dns-proxy">dns-proxy</a> | DNS-based traffic routing for geo-unblocking | node.js, docker, networking ||
 
 ---
 
