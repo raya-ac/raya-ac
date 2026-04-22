@@ -2,7 +2,11 @@
   raya-ac/raya-ac
 -->
 
-<h1 align="center">building security tools, native Mac software, and agent infrastructure</h1>
+<h1 align="center">raya</h1>
+
+<p align="center">
+  building security tools, native Mac software, and agent infrastructure
+</p>
 
 <p align="center">
   <a href="https://raya.li"><img src="https://img.shields.io/badge/site-raya.li-0a0a0a?style=flat-square" alt="site"></a>
@@ -12,38 +16,70 @@
 </p>
 
 <p align="center">
-  Security research, agent memory systems, and Mac apps are the center of gravity.
-  Most of my recent work lives somewhere between those three.
+  <img src="https://img.shields.io/badge/focus-security%20research-111111?style=flat-square" alt="security research">
+  <img src="https://img.shields.io/badge/focus-native%20macOS-111111?style=flat-square" alt="native macOS">
+  <img src="https://img.shields.io/badge/focus-agent%20memory-111111?style=flat-square" alt="agent memory">
+  <img src="https://img.shields.io/badge/focus-infrastructure-111111?style=flat-square" alt="infrastructure">
+</p>
+
+<p align="center">
+  Most of what I build sits somewhere between security research, agent systems, and Mac apps.
+  I like tools that feel native, do real work, and don't need a paragraph of excuses.
 </p>
 
 ---
 
-## Current Focus
+## At a Glance
 
-| project | what I'm doing with it |
-|---------|------------------------|
-| [engram](https://github.com/raya-ac/engram) | Memory system for AI agents. Hybrid retrieval, MCP tooling, docs, and benchmarks. Currently at `98.1%` R@5 on LongMemEval. |
-| [kiln](https://github.com/raya-ac/kiln) | Native macOS app for agent CLIs like Claude Code and Codex. I’m actively pushing on provider support, UX, and release tooling. |
-| [SecPulse](https://github.com/raya-ac/secpulse) | Responsible disclosure platform for leaked secrets. This is also where the `keyleak` checking and triage work lands. |
-| [warden](https://github.com/raya-ac/warden) | End-to-end remote control stack over Tailscale, with agent, CLI, web UI, and native Mac app pieces. |
-| [payphone-territory](https://github.com/raya-ac/payphone-territory) | Messaging and comms infrastructure. Very Twilio-shaped at the moment. |
-| [eero-mac](https://github.com/raya-ac/eero-mac) | Native macOS app for managing eero networks. |
+<table>
+  <tr>
+    <td valign="top" width="50%">
 
-## Other Ongoing Projects
+### Current Work
 
-| project | note |
-|---------|------|
-| [ember-cpu](https://github.com/raya-ac/ember-cpu) | 32-bit CPU project with assembler, C compiler, JIT, and DOOM. |
-| [intellidash](https://github.com/raya-ac/intellidash) | Native dashboard with a lot of live feeds and local AI analysis. |
-| [sigint](https://github.com/raya-ac/sigint) | Monitoring and situational-awareness tooling. |
+- shipping [Engram](https://github.com/raya-ac/engram), a memory system for AI agents
+- pushing [Kiln](https://github.com/raya-ac/kiln) further into a real multi-provider Mac app
+- shaping [SecPulse](https://github.com/raya-ac/secpulse) into a stronger disclosure platform
+- building [Warden](https://github.com/raya-ac/warden) and [Payphone Territory](https://github.com/raya-ac/payphone-territory) in parallel
+- still defaulting to native macOS apps whenever I can get away with it
+
+    </td>
+    <td valign="top" width="50%">
+
+### Security Snapshot
+
+- 26 reports across Apple SRDP, HackerOne, Bugcrowd, and direct disclosure
+- multiple Apple Security Research reports accepted
+- Spring 2026-tagged Apple work currently in the queue
+- usual focus: CORS, sandbox escape, authz failures, and client-side bugs
+
+    </td>
+  </tr>
+</table>
 
 ---
 
-## Stack
+## Selected Projects
+
+| project | what it is | stack |
+|---------|------------|-------|
+| [engram](https://github.com/raya-ac/engram) | Memory system for AI agents. Hybrid retrieval, MCP tooling, docs, and benchmarks. Currently at `98.1%` R@5 on LongMemEval. | python, sqlite, hnswlib, fastapi |
+| [kiln](https://github.com/raya-ac/kiln) | Native macOS app for agent CLIs like Claude Code and Codex. Local editor, approvals, session management, remote control, and release tooling. | swift, swiftui, sparkle |
+| [SecPulse](https://github.com/raya-ac/secpulse) | Responsible disclosure platform for leaked secrets. This is also where the `keyleak` checking and triage work lands. | python, web |
+| [warden](https://github.com/raya-ac/warden) | End-to-end remote control stack over Tailscale, with agent, CLI, web UI, and native Mac app pieces. | swift, python, web |
+| [payphone-territory](https://github.com/raya-ac/payphone-territory) | Messaging and communications infrastructure. Very Twilio-shaped right now. | python, twilio |
+| [eero-mac](https://github.com/raya-ac/eero-mac) | Native macOS app for managing eero WiFi networks. | swift, swiftui |
+| [ember-cpu](https://github.com/raya-ac/ember-cpu) | 32-bit CPU from scratch with assembler, C compiler, JIT, and DOOM. | systems, compilers |
+| [intellidash](https://github.com/raya-ac/intellidash) | Native dashboard with live feeds, local AI analysis, and a lot of scope. | python, swiftui |
+| [sigint](https://github.com/raya-ac/sigint) | Monitoring and situational-awareness tooling. | python, data |
+
+---
+
+## What I Work On
 
 ```text
 languages      swift  python  javascript  c++  metal  go  bash
-security       ashforge  secprobe  secpulse  burp  nuclei  custom tooling
+security       secpulse  ashforge  secprobe  burp  nuclei  custom tooling
 apple          swiftui  appkit  app sandbox  metal gpu  xcode
 ai/ml          embeddings  hnswlib  retrieval  mcp  local models
 infra          docker  nginx  cloudflare  tailscale  bare metal
@@ -53,9 +89,10 @@ infra          docker  nginx  cloudflare  tailscale  bare metal
 
 ## Working Style
 
-- I like native software more than web wrappers.
+- I prefer native software over web wrappers.
 - I build tools I want to use myself, then keep pushing until they stop being annoying.
-- A lot of my work starts in security or infra and ends up drifting into agent systems.
+- A lot of my work starts in security or infrastructure and drifts into agent systems.
+- I like ambitious projects, but I still want them to feel usable on day one.
 
 ---
 
@@ -63,8 +100,9 @@ infra          docker  nginx  cloudflare  tailscale  bare metal
 
 ```text
 26 reports across apple srdp, h1, bugcrowd, and direct disclosure
+multiple Apple Security Research reports accepted
+Spring 2026-tagged Apple work in progress
 targets include apple, netflix, coinbase, stripe, monzo, twilio, grab, and atlassian
-usual focus: cors, sandbox escape, authz failures, client-side issues
 tools built along the way: ashforge, secprobe, secpulse, bountytoolkit
 ```
 
@@ -72,12 +110,11 @@ tools built along the way: ashforge, secprobe, secpulse, bountytoolkit
 
 ## Right Now
 
-- shipping Engram
-- pushing Kiln toward better multi-provider support
-- shaping SecPulse into something more useful and less vague
-- building Warden and Payphone Territory in parallel
-- still doing Apple SRDP work
-- still choosing native Mac apps whenever I can get away with it
+- Engram is shipped, documented, and live on PyPI
+- Kiln just got Codex support and is turning into a serious desktop front-end for agent CLIs
+- SecPulse is live, but still getting sharper
+- Warden and Payphone Territory are both active
+- Apple research work is moving through acceptance and seasonal tagging
 
 ---
 
