@@ -10,6 +10,7 @@
 
 <p align="center">
   <a href="https://raya.li"><img src="https://img.shields.io/badge/site-raya.li-0a0a0a?style=flat-square" alt="site"></a>
+  <a href="https://junkstep.com"><img src="https://img.shields.io/badge/junkstep-current%20active%20game-ff4d8d?style=flat-square&labelColor=111111" alt="junkstep"></a>
   <a href="https://github.com/raya-ac/kiln"><img src="https://img.shields.io/badge/kiln-native%20mac%20agents-2563eb?style=flat-square&labelColor=111111" alt="kiln"></a>
   <a href="https://github.com/raya-ac/Layerline"><img src="https://img.shields.io/badge/layerline-zig%20origin%20server-f7a41d?style=flat-square&labelColor=111111" alt="layerline"></a>
   <a href="https://github.com/raya-ac/mythic"><img src="https://img.shields.io/badge/mythic-cognition%20runtime-9f7aea?style=flat-square&labelColor=111111" alt="mythic"></a>
@@ -26,6 +27,8 @@
 
 ## now
 
+**most active right now:** [Junkstep](https://junkstep.com) - C++20/raylib rhythm battle game, early alpha. Apple Silicon builds, signed downloads, online accounts, chart rankings, bot battle, replays, hold notes, junk pressure, map transfer, and a backend that keeps getting less embarrassing.
+
 | public work | what it is right now |
 |-------------|----------------------|
 | [kiln](https://github.com/raya-ac/kiln) | native macOS app for agent CLIs like Claude Code and Codex. SwiftUI, Swift 6, Apple Silicon and Intel, release/update flow, sessions, approvals, local files, model controls. |
@@ -41,7 +44,7 @@
 
 | work | shape |
 |------|-------|
-| Junkstep | C++20/raylib rhythm battle game. early alpha, Apple Silicon builds, signed downloads, bot battle, replays, hold notes, junk pressure, online backend, and a lot of rough edges getting sanded down in real time. |
+| [Junkstep](https://junkstep.com) / [downloads](https://download.junkstep.com) | C++20/raylib rhythm battle game. early alpha, Apple Silicon builds, signed downloads, bot battle, replays, hold notes, junk pressure, online backend, website accounts, rankings, chat, and a lot of rough edges getting sanded down in real time. |
 | Aurora / SRDPKit | local-first macOS security and infosec workbench. Apple baseline diffs, IOKit/SRDP research, safe tool registry, SwiftUI wrapper, Discord RPC, SecPulse/breach tooling, and a hard rule that risky probes stay gated. |
 | Dawnline OS | Arch-based agent/workstation OS scaffold. archiso, rootfs targets, package groups, containerized builder flow, and Asahi/aarch64 planning. |
 | SecPulse / Keyleak | responsible disclosure, leaked-secret triage, source handling, and operator workflows. some of it is public-facing, some of it stays private until it should not. |
@@ -70,7 +73,8 @@ public repositories        27
 public non-fork repos      21
 public counted lines       251,780
 recent public work         kiln, Layerline, mythic, engram, verge.raya.ac
-private/local active work  Junkstep, Aurora/SRDPKit, Dawnline OS, SecPulse, Warden
+current most active work   Junkstep
+private/local active work  Aurora/SRDPKit, Dawnline OS, SecPulse, Warden
 ```
 
 The line count is a practical source/text count, not a vanity metric. I skip lockfiles, vendored dependencies, generated bundles, binaries, minified assets, and similar noise. The private/local projects are not rolled into that public number.
@@ -116,11 +120,11 @@ I care less about making this sound impressive than making it checkable. The bor
 
 ## current focus
 
+- finishing Junkstep's early-alpha loop without letting the game feel like backend plumbing.
 - making Kiln the Mac app i actually want for agent CLIs.
 - pushing Layerline from "works" toward "i trust it in front of real sites".
 - keeping Engram useful locally while Memorylayer grows around it.
 - building Mythic as the runtime layer above memory, not another wrapper with a better name.
-- finishing Junkstep phase work without letting gameplay feel like backend plumbing.
 - turning Aurora/SRDPKit into a real local security workbench, not just a pile of scripts.
 - keeping Apple security research grounded in baselines, repeatable probes, and clean reports.
 
@@ -128,6 +132,7 @@ I care less about making this sound impressive than making it checkable. The bor
 
 <p align="center">
   <a href="https://raya.li">site</a> ·
+  <a href="https://junkstep.com">junkstep</a> ·
   <a href="https://github.com/raya-ac/kiln">kiln</a> ·
   <a href="https://github.com/raya-ac/Layerline">layerline</a> ·
   <a href="https://github.com/raya-ac/mythic">mythic</a> ·
