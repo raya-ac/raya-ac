@@ -5,165 +5,136 @@
 <h1 align="center">raya</h1>
 
 <p align="center">
-  security research, agent memory, cognition runtimes, origin servers, evidence rooms, native Mac apps, and tools that usually start as "this should exist"
+  security research, native Mac software, agent memory, local infra, and games that keep turning into systems projects
 </p>
 
 <p align="center">
   <a href="https://raya.li"><img src="https://img.shields.io/badge/site-raya.li-0a0a0a?style=flat-square" alt="site"></a>
-  <a href="https://layerline.dev"><img src="https://img.shields.io/badge/layerline.dev-origin%20server-f7a41d?style=flat-square&labelColor=111111" alt="layerline"></a>
-  <a href="https://verge.report"><img src="https://img.shields.io/badge/verge.report-evidence%20workspace-6d5dfc?style=flat-square&labelColor=111111" alt="verge report"></a>
-  <a href="https://memorylayer.run"><img src="https://img.shields.io/badge/memorylayer.run-live-ffffff?style=flat-square&labelColor=111111&color=ffffff" alt="memorylayer"></a>
-  <a href="https://engram-memory.dev"><img src="https://img.shields.io/badge/engram-memory.dev-7c4dff?style=flat-square" alt="engram"></a>
+  <a href="https://github.com/raya-ac/kiln"><img src="https://img.shields.io/badge/kiln-native%20mac%20agents-2563eb?style=flat-square&labelColor=111111" alt="kiln"></a>
+  <a href="https://github.com/raya-ac/Layerline"><img src="https://img.shields.io/badge/layerline-zig%20origin%20server-f7a41d?style=flat-square&labelColor=111111" alt="layerline"></a>
   <a href="https://github.com/raya-ac/mythic"><img src="https://img.shields.io/badge/mythic-cognition%20runtime-9f7aea?style=flat-square&labelColor=111111" alt="mythic"></a>
-  <a href="https://secpulse.tech"><img src="https://img.shields.io/badge/secpulse.tech-live-00c853?style=flat-square" alt="secpulse"></a>
-  <a href="https://github.com/raya-ac/kiln"><img src="https://img.shields.io/badge/kiln-mac%20agent%20app-2563eb?style=flat-square" alt="kiln"></a>
+  <a href="https://engram-memory.dev"><img src="https://img.shields.io/badge/engram-memory%20for%20agents-7c4dff?style=flat-square&labelColor=111111" alt="engram"></a>
+  <a href="https://verge.raya.ac"><img src="https://img.shields.io/badge/verge-evidence%20rooms-6d5dfc?style=flat-square&labelColor=111111" alt="verge"></a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/focus-security%20research-111111?style=flat-square" alt="security research">
-  <img src="https://img.shields.io/badge/focus-agent%20memory-111111?style=flat-square" alt="agent memory">
-  <img src="https://img.shields.io/badge/focus-cognition%20runtimes-111111?style=flat-square" alt="cognition runtimes">
-  <img src="https://img.shields.io/badge/focus-native%20macOS-111111?style=flat-square" alt="native macOS">
-  <img src="https://img.shields.io/badge/focus-origin%20servers-111111?style=flat-square" alt="origin servers">
-  <img src="https://img.shields.io/badge/focus-source%20bound%20research-111111?style=flat-square" alt="source-bound research">
-</p>
-
-<p align="center">
-  I build security tools, memory and cognition infrastructure for agents, origin-server software, and Mac apps.
-  A lot of it comes from getting annoyed at existing tooling and deciding to make the version I wanted.
+  i build tools because the version i want usually does not exist yet.
+  the work moves around a bit: macOS internals, agent memory, security research, origin servers, and sometimes a rhythm game that accidentally grows a backend.
 </p>
 
 ---
 
-## Now
+## now
 
-<table>
-  <tr>
-    <td valign="top" width="50%">
-
-### Shipping
-
-- [Layerline](https://github.com/raya-ac/Layerline) - a Zig origin web server with virtual hosts, PHP/FastCGI, reverse proxying, TLS, request tracing, structured logs, HTTP/2, admin controls, and in-tree HTTP/3 work. It serves [layerline.dev](https://layerline.dev).
-- [Verge Report](https://verge.report) - source-bound evidence workspace with subdomain surfaces for documents, courts, releases, intake, privacy, media handling, claims, networks, timelines, sources, and review.
-- [Memorylayer](https://memorylayer.run) - hosted Engram workspaces, GitHub login, API keys, ingestion, usage tracking, and a small MCP-style bridge.
-- [Engram](https://github.com/raya-ac/engram) - persistent memory for agents, with retrieval, graph context, MCP tools, and PyPI releases.
-- [Mythic](https://github.com/raya-ac/mythic) - cognition runtime layer for Engram, with planner-aware memory activation, cognitive cycles, reflection records, events, plugins, and runtime snapshots.
-- [Kiln](https://github.com/raya-ac/kiln) - a native macOS front-end for agent CLIs, now with Claude and Codex support.
-- [SecPulse](https://secpulse.tech) - responsible disclosure and secret triage tooling. SecPulse and Keyleak are the same line of work now.
-
-    </td>
-    <td valign="top" width="50%">
-
-### Security Research
-
-- Apple Security Research reports accepted.
-- Apple work tagged for Spring 2026.
-- 26 reports across Apple SRDP, HackerOne, Bugcrowd, and direct disclosure.
-- Usual rabbit holes: CORS, authz, sandboxing, client-side bugs, exposed secrets, and weird platform behavior.
-- Source-bound public research surfaces are becoming their own lane now: more receipts, fewer vibes.
-
-    </td>
-  </tr>
-</table>
+| public work | what it is right now |
+|-------------|----------------------|
+| [kiln](https://github.com/raya-ac/kiln) | native macOS app for agent CLIs like Claude Code and Codex. SwiftUI, Swift 6, Apple Silicon and Intel, release/update flow, sessions, approvals, local files, model controls. |
+| [Layerline](https://github.com/raya-ac/Layerline) | Zig origin server with virtual hosts, PHP/FastCGI, reverse proxying, TLS, admin controls, HTTP/2, and HTTP/3 work in tree. this is the part of the edge stack i want to own myself. |
+| [mythic](https://github.com/raya-ac/mythic) | runtime layer above Engram: memory activation, cognitive cycles, reflection records, event streams, checkpoints, plugins, and resumable session state. |
+| [engram](https://github.com/raya-ac/engram) | memory system for agents with hybrid retrieval, graph context, MCP tools, docs, PyPI releases, and the local continuity stack i keep building around. |
+| [verge.raya.ac](https://github.com/raya-ac/verge.raya.ac) | public evidence/chamber work. source registers, claim threads, receipts, maps, and audit trails instead of screenshots floating around with no spine. |
+| [engram-cloud](https://github.com/raya-ac/engram-cloud) | hosted layer around Engram: workspaces, API keys, ingestion, usage tracking, dashboard surfaces, and bridge work. |
 
 ---
 
-## Projects
+## active, but not all public
 
-| project | what it is | status |
-|---------|------------|--------|
-| [Layerline](https://github.com/raya-ac/Layerline) | Zig origin web server for static sites, PHP/FastCGI, reverse proxying, TLS, request tracing, structured logs, admin controls, HTTP/2, and in-tree HTTP/3 work. | serves [layerline.dev](https://layerline.dev) |
-| [Verge Report](https://verge.report) | Evidence workspace and dossier site with canonical subdomains for document families, court records, releases, source intake, review lanes, claims, networks, timelines, and public data contracts. | live |
-| [Verge](https://github.com/raya-ac/verge.raya.ac) | Shared chamber and public evidence workspace. The Port Pirie surface is a source-bound network index with claim threads, receipts, source registers, map context, and an audit trail. | live at [verge.raya.ac](https://verge.raya.ac) |
-| [Memorylayer](https://github.com/raya-ac/engram-cloud) | Hosted service layer for Engram: workspaces, API keys, ingestion, usage logs, starter skills, and a dashboard. | live at [memorylayer.run](https://memorylayer.run) |
-| [Engram](https://github.com/raya-ac/engram) | Memory system for agents. Hybrid retrieval, MCP tooling, graph context, docs, and benchmarks. | active |
-| [Mythic](https://github.com/raya-ac/mythic) | Persistent cognition runtime layer for Engram: planner-aware activation, cognitive cycles, reflection records, events, plugins, reinforcement hooks, and session snapshots. | active |
-| [Kiln](https://github.com/raya-ac/kiln) | Native macOS app for agent CLIs like Claude Code and Codex. Local files, chat, approvals, sessions, model controls, and release tooling. | active |
-| [SecPulse](https://github.com/raya-ac/secpulse) | Responsible disclosure platform and secret triage stack. This is where Keyleak work lands now. | live |
-| [Warden](https://github.com/raya-ac/warden) | Remote control stack over Tailscale, with agent, CLI, web UI, and Mac app pieces. | active |
-| [payphone-territory](https://github.com/raya-ac/payphone-territory) | Messaging and communications infrastructure. Twilio-shaped, but getting broader. | active |
-| [sigint](https://github.com/raya-ac/sigint) | Monitoring and situational-awareness tooling, plus a few jokes that probably went too far. | active |
-| [eero-mac](https://github.com/raya-ac/eero-mac) | Native macOS app for managing eero WiFi networks. | active |
-| [ember-cpu](https://github.com/raya-ac/ember-cpu) | 32-bit CPU from scratch with assembler, C compiler, JIT, and DOOM. | systems project |
-| Dawnline OS | Arch-based OS scaffold with archiso package groups, rootfs targets, containerized builder flow, and x86_64 / aarch64 / Asahi target planning. | local active |
-| [Proton](https://github.com/raya-ac/Proton) / [wine](https://github.com/raya-ac/wine) | macOS ARM64 port spike around Proton 11 and Wine, with ARM64 container builds, Darwin runtime bring-up notes, and default branch cleanup. | port spike |
+| work | shape |
+|------|-------|
+| Junkstep | C++20/raylib rhythm battle game. early alpha, Apple Silicon builds, signed downloads, bot battle, replays, hold notes, junk pressure, online backend, and a lot of rough edges getting sanded down in real time. |
+| Aurora / SRDPKit | local-first macOS security and infosec workbench. Apple baseline diffs, IOKit/SRDP research, safe tool registry, SwiftUI wrapper, Discord RPC, SecPulse/breach tooling, and a hard rule that risky probes stay gated. |
+| Dawnline OS | Arch-based agent/workstation OS scaffold. archiso, rootfs targets, package groups, containerized builder flow, and Asahi/aarch64 planning. |
+| SecPulse / Keyleak | responsible disclosure, leaked-secret triage, source handling, and operator workflows. some of it is public-facing, some of it stays private until it should not. |
+| Apple security research | accepted reports, seasonal tagging/review, local baselines, and tooling for making the reports repeatable instead of just clever. |
+| Warden | remote control stack over Tailscale with agent, CLI, web UI, and native Mac pieces. |
 
 ---
 
-## GitHub Snapshot
+## older but still mine
+
+| project | notes |
+|---------|-------|
+| [ember-cpu](https://github.com/raya-ac/ember-cpu) | 32-bit CPU from scratch with assembler, C compiler, JIT, and DOOM. |
+| [eero-mac](https://github.com/raya-ac/eero-mac) | native macOS app for managing eero WiFi networks. |
+| [intellidash](https://github.com/raya-ac/intellidash) | global intelligence dashboard with live feeds, a local analyst, flight tracking, and native macOS pieces. |
+| [adelaide-metro-tracking](https://github.com/raya-ac/adelaide-metro-tracking) | real-time public transport tracking for Adelaide. |
+| [neuro-memory](https://github.com/raya-ac/neuro-memory) | older cognitive memory system. a predecessor to the Engram/Mythic line. |
+| [Proton](https://github.com/raya-ac/Proton) / [wine](https://github.com/raya-ac/wine) | macOS ARM64 port spike around Proton/Wine. not a magic compatibility layer, just real port work and notes. |
+
+---
+
+## current public snapshot
 
 ```text
-visible repos counted  46
-owned non-fork repos   40
-source lines           777,925  non-fork
-source lines           8,633,770 including forks
-largest own repo       raya-monitor
-large forks            wine, Proton
+public repositories        27
+public non-fork repos      21
+public counted lines       251,780
+recent public work         kiln, Layerline, mythic, engram, verge.raya.ac
+private/local active work  Junkstep, Aurora/SRDPKit, Dawnline OS, SecPulse, Warden
 ```
 
-The fork-inclusive number is mostly upstream Wine and Proton. The non-fork number is the one I would use when talking about my own projects.
+The line count is a practical source/text count, not a vanity metric. I skip lockfiles, vendored dependencies, generated bundles, binaries, minified assets, and similar noise. The private/local projects are not rolled into that public number.
 
 ---
 
-## What I Work With
+## what i work with
 
 ```text
-languages      python  html/css  typescript  javascript  swift  go  zig  rust  c/c++  bash
-apple          swiftui  appkit  app sandbox  xpc  metal  xcode
-security       burp  nuclei  custom scanners  disclosure workflows  source registers
-agents         mcp  retrieval  embeddings  memory systems  cognition runtimes  local models
-infra          postgres  docker  cloudflare  tailscale  vps  layerline  nginx/caddy
+languages      swift  python  zig  c++  typescript  javascript  go  rust  bash
+apple          swiftui  appkit  xpc  app sandbox  tcc  iokit  metal  xcode
+agents         mcp  embeddings  retrieval  memory systems  event streams  local models
+security       burp  nuclei  custom scanners  source registers  disclosure workflows
+infra          postgres  docker  cloudflare  tailscale  layerline  nginx/caddy
+games          raylib  realtime input  chart importers  replays  multiplayer backends
 ```
 
 ---
 
-## Security Work
+## security work
 
 ```text
 accepted Apple Security Research reports
-Spring 2026-tagged Apple reports
-26 total reports across Apple SRDP, HackerOne, Bugcrowd, and direct disclosure
-targets include Apple, Netflix, Coinbase, Stripe, Monzo, Twilio, Grab, and Atlassian
-tools built along the way: SecPulse, Keyleak, ashforge, secprobe, bountytoolkit
+Apple SRDP work under review/tagging
+reports across Apple, HackerOne, Bugcrowd, and direct disclosure
+usual holes: CORS, authz, sandboxing, exposed secrets, client-side trust, platform weirdness
+tools built along the way: Aurora/SRDPKit, SecPulse, Keyleak, ashforge, secprobe, bountytoolkit
 ```
 
----
-
-## Working Style
-
-- I like native apps when they make sense. Web wrappers usually annoy me.
-- I care about tools feeling fast, direct, and a little overbuilt in the right places.
-- Security research keeps pulling me into infrastructure. Agent work keeps pulling me back into memory and retrieval.
-- Evidence work keeps teaching me that the boring part matters: source boundaries, repeatable builds, and public data that can be checked.
-- I prefer shipping something real, then sanding down the rough edges in public.
+I care less about making this sound impressive than making it checkable. The boring parts matter: source boundaries, exact repro steps, local baselines, saved artifacts, and knowing when not to run the dangerous thing.
 
 ---
 
-## Current Focus
+## working style
 
-- Making Layerline good enough to keep replacing the boring parts of my edge stack.
-- Expanding Verge Report without letting it become a pile of screenshots and claims nobody can audit.
-- Making Memorylayer feel like a real hosted memory service for agents.
-- Keeping Engram useful locally and hosted, without turning it into a fake SaaS abstraction.
-- Building Mythic as the runtime layer above memory: activation, cycles, reflection, events, and session state.
-- Turning Kiln into the Mac app I want for Claude, Codex, and whatever agent CLI comes next.
-- Building SecPulse into a cleaner disclosure workflow with useful security tooling around it.
-- Continuing Dawnline OS as an Arch-based agent/workstation image instead of a generic distro experiment.
-- Continuing Apple security research as accepted reports move through seasonal tagging.
+- native apps when they make sense. web when it earns it.
+- tools should be fast, direct, and slightly overbuilt in the places that save time later.
+- i would rather ship the rough real thing than polish a fake demo.
+- security research keeps turning into infrastructure. agent work keeps turning back into memory.
+- if a system cannot be resumed by another session, it probably is not done yet.
+
+---
+
+## current focus
+
+- making Kiln the Mac app i actually want for agent CLIs.
+- pushing Layerline from "works" toward "i trust it in front of real sites".
+- keeping Engram useful locally while Memorylayer grows around it.
+- building Mythic as the runtime layer above memory, not another wrapper with a better name.
+- finishing Junkstep phase work without letting gameplay feel like backend plumbing.
+- turning Aurora/SRDPKit into a real local security workbench, not just a pile of scripts.
+- keeping Apple security research grounded in baselines, repeatable probes, and clean reports.
 
 ---
 
 <p align="center">
   <a href="https://raya.li">site</a> ·
-  <a href="https://layerline.dev">layerline</a> ·
-  <a href="https://verge.report">verge report</a> ·
-  <a href="https://memorylayer.run">memorylayer</a> ·
-  <a href="https://engram-memory.dev">engram</a> ·
+  <a href="https://github.com/raya-ac/kiln">kiln</a> ·
+  <a href="https://github.com/raya-ac/Layerline">layerline</a> ·
   <a href="https://github.com/raya-ac/mythic">mythic</a> ·
-  <a href="https://secpulse.tech">secpulse</a> ·
-  <a href="https://github.com/raya-ac/kiln">kiln</a>
+  <a href="https://engram-memory.dev">engram</a> ·
+  <a href="https://verge.raya.ac">verge</a>
 </p>
 
 <p align="center">
-  <sub>Ask me about macOS internals, sandboxing, agent memory, or why I keep starting infrastructure projects at 2am.</sub>
+  <sub>ask me about macOS internals, sandboxing, agent memory, origin servers, or why a rhythm game needs this much backend.</sub>
 </p>
