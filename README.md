@@ -22,7 +22,7 @@
 
 the work moves between macOS internals, agent memory, security research, origin servers, and games that keep turning into systems projects. i don't really separate these — they feed each other. the security work becomes infrastructure, the agent work keeps coming back to memory, and the games keep growing backends they don't need.
 
-right now i'm pushing [Layerline](https://github.com/raya-ac/Layerline) toward something i'd trust in front of real sites, and building [Junkstep](https://junkstep.com) — a rhythm battle game that's in early alpha and still rough around the edges.
+right now i'm pushing [Layerline](https://github.com/raya-ac/Layerline) toward something i'd trust in front of real sites, building [Junkstep](https://junkstep.com) — a rhythm battle game in early alpha — and growing [Valhalla](#valhalla) into a real distribution platform.
 
 ---
 
@@ -40,13 +40,23 @@ right now i'm pushing [Layerline](https://github.com/raya-ac/Layerline) toward s
 
 ---
 
+## Valhalla
+
+a platform for licensing and distributing software. auth, invites, crypto payments, HWID binding, key management — the full stack for selling and gating a product without handing the whole thing to stripe and a licensing SaaS.
+
+it started as a backend for one product and turned into something general. the architecture is clean enough now that i'm starting to trust it with real products, not just prototypes.
+
+**running on it:** CS2 (external assistance platform). more coming.
+
+not public yet. getting there.
+
+---
+
 ## also active, less visible
 
 | work | shape |
 |------|-------|
 | [Junkstep](https://junkstep.com) | C++20/raylib rhythm battle. alpha — signed apple silicon builds, online play, replays, bot battle. still getting sanded down. |
-| Valhalla | licensing and distribution platform. auth, invites, crypto payments, HWID. the backend for things that need to be sold and gated. |
-| CS2 | external assistance platform on valhalla's stack. |
 | Aurora / SRDPKit | local-first macos security workbench. baseline diffs, IOKit research, safe tool registry. risky probes stay gated. |
 | Dawnline OS | arch-based os scaffold for agent workstations. archiso, rootfs, containerized builder. |
 | SecPulse / Keyleak | disclosure tooling, leaked-secret triage, source handling. |
