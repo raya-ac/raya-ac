@@ -11,6 +11,7 @@
 <p align="center">
   <a href="https://raya.li"><img src="https://img.shields.io/badge/site-raya.li-0a0a0a?style=flat-square" alt="site"></a>
   <a href="https://junkstep.com"><img src="https://img.shields.io/badge/junkstep-rhythm%20battle-ff4d8d?style=flat-square&labelColor=111111" alt="junkstep"></a>
+  <a href="https://github.com/raya-ac/zigcho"><img src="https://img.shields.io/badge/zigcho-osu!%20server-f7a41d?style=flat-square&labelColor=111111" alt="zigcho"></a>
   <a href="https://github.com/raya-ac/kiln"><img src="https://img.shields.io/badge/kiln-native%20mac%20agents-2563eb?style=flat-square&labelColor=111111" alt="kiln"></a>
   <a href="https://github.com/raya-ac/Layerline"><img src="https://img.shields.io/badge/layerline-zig%20origin%20server-f7a41d?style=flat-square&labelColor=111111" alt="layerline"></a>
   <a href="https://github.com/raya-ac/mythic"><img src="https://img.shields.io/badge/mythic-cognition%20runtime-9f7aea?style=flat-square&labelColor=111111" alt="mythic"></a>
@@ -22,7 +23,7 @@
 
 the work moves between macOS internals, agent memory, security research, origin servers, and games that keep turning into systems projects. i don't really separate these — they feed each other. the security work becomes infrastructure, the agent work keeps coming back to memory, and the games keep growing backends they don't need.
 
-right now i'm pushing [Layerline](https://github.com/raya-ac/Layerline) toward something i'd trust in front of real sites, building [Junkstep](https://junkstep.com) — a rhythm battle game in early alpha — and growing [Valhalla](#valhalla) into a real distribution platform.
+right now [zigcho](https://github.com/raya-ac/zigcho) is the main rabbit hole: a production osu! server in Zig for Stable and a custom lazer client. Bancho, scores, PP, Relax, multiplayer, spectating, PostgreSQL, the player site and private R2 avatars all ended up becoming one project. i'm also pushing [Layerline](https://github.com/raya-ac/Layerline) toward something i'd trust in front of real sites, keeping [Junkstep](https://junkstep.com) moving, and growing [Valhalla](#valhalla) into a real distribution platform.
 
 ---
 
@@ -30,6 +31,7 @@ right now i'm pushing [Layerline](https://github.com/raya-ac/Layerline) toward s
 
 | project | what it is |
 |---------|-----------|
+| [zigcho](https://github.com/raya-ac/zigcho) | osu! server in Zig. Stable is the complete live lane; the custom lazer client has accounts, maps, profiles and ranked solo scores while its realtime side catches up. |
 | [Layerline](https://github.com/raya-ac/Layerline) | zig origin server. vhosts, fastcgi, reverse proxy, TLS, HTTP/2 stable, HTTP/3 in tree. the edge stack i want to own end to end. |
 | [engram](https://github.com/raya-ac/engram) | agent memory system. hybrid retrieval — HNSW, BM25, graph, cross-encoder, learned reranker. 98.1% R@5 on LongMemEval. |
 | [mythic](https://github.com/raya-ac/mythic) | cognition runtime above engram. activation cycles, reflection, checkpoints, plugins. not another wrapper — the layer that makes memory feel alive. |
@@ -82,9 +84,9 @@ not public yet. getting there.
 ## snapshot
 
 ```text
-public repos     27 (21 non-fork)
-public source    ~255k lines (linguist estimate, private work not counted)
-most active      Layerline, Junkstep, kiln, engram
+public repos     28 (22 non-fork)
+public source    ~280k lines (linguist estimate, private work not counted)
+most active      zigcho, Layerline, Junkstep, kiln, engram
 private active   Valhalla, CS2, Aurora/SRDPKit, Dawnline OS, SecPulse, Warden
 ```
 
@@ -125,6 +127,7 @@ i care less about making this sound impressive than making it checkable. source 
 <p align="center">
   <a href="https://raya.li">site</a> ·
   <a href="https://junkstep.com">junkstep</a> ·
+  <a href="https://github.com/raya-ac/zigcho">zigcho</a> ·
   <a href="https://github.com/raya-ac/kiln">kiln</a> ·
   <a href="https://github.com/raya-ac/Layerline">layerline</a> ·
   <a href="https://github.com/raya-ac/mythic">mythic</a> ·
@@ -133,5 +136,5 @@ i care less about making this sound impressive than making it checkable. source 
 </p>
 
 <p align="center">
-  <sub>macOS internals, sandboxing, agent memory, origin servers, DNS — or why a rhythm game needs this much backend.</sub>
+  <sub>macOS internals, sandboxing, agent memory, origin servers, DNS — or why every rhythm game ends up with too much backend.</sub>
 </p>
